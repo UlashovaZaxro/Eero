@@ -3,7 +3,7 @@ Eero
 ```
 
 ***
-<img src="./assest/readme/picture-1.png" alt="">
+<img src="./assest/readme/picture.1.png" alt="">
 
 ***
 <img src="./assest/readme/picture-2.png" alt="">
