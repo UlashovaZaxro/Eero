@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container .btn {
+    background-color: darkblue;
+    border: none;
+    color: white;
+}
+
+.container .col-md-12 .main-h6 {
+    background-color: darkblue;
+    font-size: 0.7rem;
+    padding: 5px 0;
+}
+
+.container .btn {
+    border-radius: 0;
+    padding: 10px;
+}
+
+.container .section-1 {
+    background-image: url(../img/Rectangle.png);
+    background-repeat: no-repeat;
+}
+
+@media all and (max-width: 1000px) {
+    .container .section-1 h1 {
+        font-size: 1.2rem;
+    }
+
+    .container .section-1 h6 {
+        font-size: 0.8rem;
+    }
+
+    .container .section-1 .btn {
+        font-size: 0.7rem;
+    }
+}
+
+
+@media all and (max-width: 1000px) {
+
+    .container .section-2{
+        margin-top: -200px;
+    }
+    .container .section-2 h1 {
+        font-size: 1.1rem;
+    }
+
+    .container .section-2 p {
+        font-size: 0.8rem;
+    }
+
+    .container .section-2 .btn {
+        font-size: 0.7rem;
+    }
+    .container .section-2 h2 {
+        font-size: 0.8rem;
+    }
+    .container .section-2 a {
+        font-size: 0.7rem;
+    }
+}
+
+.container .section-3 {
+    background-image: url(../img/Rectangle\ \(3\).png);
+    background-size: cover;
+}
+
+.container .section-3 .row {
+    padding-top: 550px;
+}
+
+@media all and (max-width: 1000px) {
+
+    .container .section-2{
+        margin-top: -200px;
+    }
+    .container .section-2 h1 {
+        font-size: 1.1rem;
+    }
+
+    .container .section-2 p {
+        font-size: 0.8rem;
+    }
+
+    .container .section-2 .btn {
+        font-size: 0.7rem;
+    }
+    .container .section-2 h2 {
+        font-size: 0.8rem;
+    }
+    .container .section-2 a {
+        font-size: 0.7rem;
+    }
+}
+
+.container .section-4 {
+    background-color: rgb(46, 46, 46);
+    padding: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container .section-5 {
+    background-image: url(../img/Rectangle\ \(4\).png);
+    background-size: cover;
+}
+
+.container .section-7 {
+    background-color: rgb(4, 4, 67);
+    margin-top: 100px;
+}
+
+.container .section-9 {
+    background-color: rgb(231, 231, 231);
+    margin-top: 100px;
+}
+
+.container .section-12 {
+    background-image: url(../img/Rectangle\ \(9\).png);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+.container footer {
+    background-color: rgb(5, 5, 62);
+    color: white;
+}
+
+.container footer .col-md-12 .row .col-md-3 .btn-submit {
+    background-color: darkblue;
+    color: white;
+}
+
+.container footer .col-md-12 .row .col-md-4 {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media all and (max-width: 1000px) {
+    .container .section-7 .col-md-12 .row .col-md-10 .btn-submit {
+        width: 100%;
+    }
+
+    .container footer .col-md-12 .row .col-md-4 {
+        display: flex;
+        justify-content: start;
+    }
+
+    .container footer {
+        padding: 10px;
+    }
+
+    .container footer .col-md-12 .row .col-md-3 .col-md-12 .row {
+        gap: 10px;
+    }
+
+    .container footer .col-md-12 .row .col-md-3 .col-md-12 .row .col-md-2 {
+        width: 50px;
+        padding: 10px
+    }
+}
